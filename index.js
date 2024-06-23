@@ -11,7 +11,7 @@ for (let i = start; i <= end; i += 1) {
         result -= i;
     } else if (i % 4 === 0  && i % 3 !== 0 && i % 5 !== 0){
     result *= i;
-}
+    } console.log(result);
 }
 
 
